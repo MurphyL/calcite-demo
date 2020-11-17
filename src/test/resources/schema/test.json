@@ -1,0 +1,28 @@
+{
+  "defaultSchema": "x",
+  "schemas": [
+    {
+      "factory": "org.apache.calcite.adapter.jdbc.JdbcSchema$Factory",
+      "name": "x",
+      "operand": {
+        "jdbcDriver": "com.p6spy.engine.spy.P6SpyDriver",
+        "jdbcPassword": "ua_scm_test",
+        "jdbcUrl": "jdbc:p6spy:mysql://10.0.34.17:3306/scm",
+        "jdbcUser": "ua_scm_test"
+      },
+      "type": "custom"
+    },
+    {
+      "factory": "org.apache.calcite.adapter.jdbc.JdbcSchema$Factory",
+      "name": "y",
+      "operand": {
+        "jdbcDriver": "com.p6spy.engine.spy.P6SpyDriver",
+        "jdbcPassword": "fmvczqM104ibgOpaXB",
+        "jdbcUrl": "jdbc:p6spy:oracle:thin:@10.0.6.33:1521:orcl",
+        "jdbcUser": "UA_DM2"
+      },
+      "type": "custom"
+    }
+  ],
+  "version": "1.0"
+}
